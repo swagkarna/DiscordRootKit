@@ -1,7 +1,7 @@
 # DiscordRootKit
 a malware that hides itself in Discord's core files to get undetected
 # How does it work?
-Discord usually has file integrity checks for the files, except for the index.js in the core, so i took advantage of it
+Discord usually has file integrity checks for it's files, except for the index.js in the core, so i took advantage of it
 # What does it do?
 First, checks if the victim has been infected before, if it wasn't it copies itself to the startup folder, then changes the core file and adds a reverse shell on it
 # Setup
